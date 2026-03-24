@@ -1,0 +1,78 @@
+----------------- Options ---------------
+                   A_type: acoustic                      	[default: None]
+                   L_type: bert_large                    	[default: None]
+                   V_type: visual                        	[default: None]
+               activation: relu                          
+               batch_size: 64                            	[default: 128]
+                    beta1: 0.5                           
+                       bn: False                         
+          checkpoints_dir: ./checkpoints                 
+                     clip: 1.0                           
+               cls_layers: 128,128                       
+               cls_weight: 1                             
+           continue_train: False                         
+              corpus_name: MOSI                          	[default: IEMOCAP]
+           cuda_benchmark: False                         
+                     cvNo: 10                            	[default: None]
+             dataset_mode: multimodal                    
+              diff_weight: 0.15                          
+                  dropout: 0.5                           
+             dropout_rate: 0.3                           
+            embd_method_a: maxpool                       
+            embd_method_v: maxpool                       
+              embd_size_a: 128                           
+              embd_size_l: 128                           
+              embd_size_v: 128                           
+           embedding_size: 300                           
+                    epoch: latest                        
+              epoch_count: 1                             
+          eval_batch_size: 10                            
+                  gpu_ids: 0                             	[default: 3]
+                 has_test: True                          	[default: False]
+              hidden_size: 128                           
+                image_dir: ./shared_image                	[default: ./consistent_image]
+                init_gain: 0.012                         
+                init_type: kaiming                       
+              input_dim_a: 74                            	[default: 130]
+              input_dim_l: 768                           	[default: 1024]
+              input_dim_v: 47                            	[default: 384]
+                  isTrain: True                          	[default: None]
+            learning_rate: 0.0001                        
+                  log_dir: ./logs                        
+                       lr: 0.0002                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+                 modality: AVL                           
+                     mode: train                         
+                    model: utt_self_supervise            	[default: mmin]
+                  n_epoch: 500                           
+                     name: MOSI_utt_self_supervise_AVL_run1	[default: None]
+                    niter: 20                            
+              niter_decay: 20                            	[default: 80]
+                     norm: instance                      
+              norm_method: trn                           	[default: None]
+              num_classes: 1                             	[default: 10]
+              num_threads: 8                             	[default: 0]
+                optimizer: Adam                          
+               output_dim: 1                             	[default: None]
+                 patience: 6                             
+                    phase: train                         
+               print_freq: 10                            	[default: 100]
+              random_seed: 336                           
+             recon_weight: 0.025                         
+      reverse_grad_weight: 1.0                           
+                  rnncell: lstm                          
+                  run_idx: 1                             	[default: None]
+                     runs: 5                             
+          save_epoch_freq: 1                             
+           serial_batches: False                         
+               shared_dir: ./shared                      
+               sim_weight: 0.025                         
+                sp_weight: 0.0                           
+                   suffix:                               
+                 use_bert: True                          
+              use_cmd_sim: True                          
+                  verbose: True                          	[default: False]
+             weight_decay: 1e-05                         	[default: 0.0]
+----------------- End -------------------
