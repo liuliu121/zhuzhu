@@ -1,0 +1,7 @@
+2026-03-09 13:33:03,644 - utils.logger2026-03-09-13.33.03 - INFO - The number of training samples = 1750
+2026-03-09 13:33:03,644 - utils.logger2026-03-09-13.33.03 - INFO - The number of testing samples = 224
+2026-03-09 13:33:06,240 - utils.logger2026-03-09-13.33.03 - INFO - Cur epoch 1 loss TA:1.0367 TV:1.0347 VA:2.0729 CE:2.9101
+2026-03-09 13:33:06,985 - utils.logger2026-03-09-13.33.03 - INFO - Cur epoch 1 loss TA:1.0345 TV:1.0361 VA:2.0705 CE:2.8811
+2026-03-09 13:33:07,877 - utils.logger2026-03-09-13.33.03 - INFO - saving the model at the end of epoch 1, iters 28
+2026-03-09 13:33:08,389 - utils.logger2026-03-09-13.33.03 - INFO - End of training epoch 1 / 40 	 Time Taken: 4 sec
+2026-03-09 13:33:08,389 - utils.logger2026-03-09-13.33.03 - INFO - learning rate = 0.0002000
